@@ -1,11 +1,11 @@
 {
-    "name": "laravel/laravel",
+    "name": "tibbsa/lnrl_deferral_example",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "Example implementation of 'deferred' rate-limited notifications",
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "jamesmills/laravel-notification-rate-limit": "dev-master",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9"
     },
@@ -61,6 +61,12 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jamesmills/laravel-notification-rate-limit"
+        }
+    ],
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
