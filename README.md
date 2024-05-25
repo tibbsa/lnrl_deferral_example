@@ -17,12 +17,7 @@ exercised before deploying into production code._
 
 - PHP 8.2
 - Laravel 11 (although there is no reason this could not be implemented in earlier versions)
-- Laravel-Notification-Rate-Limit package (current dev branch)
-
-NOTE: In the current public LNRL release, the `NotificationRateLimitedEvent` does not include all of the
-information necessary to implement this deferral - in particular, it does not include the `notifiable` element
-and thus the event has no information on the intended recipient. Currently, in this demo app, a repository
-override is used in `composer.json` to pull in the latest code from the Github repository to overcome this.
+- Laravel-Notification-Rate-Limit package (v3.0.0+)
 
 ## How It Works
 
