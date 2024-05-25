@@ -5,7 +5,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "jamesmills/laravel-notification-rate-limit": "dev-master",
+        "jamesmills/laravel-notification-rate-limit": "^3.0.0",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9"
     },
@@ -67,6 +67,6 @@
             "url": "https://github.com/jamesmills/laravel-notification-rate-limit"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
