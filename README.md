@@ -16,8 +16,8 @@ exercised before deploying into production code._
 ## Requirements
 
 - PHP 8.2
-- Laravel 11 (although there is no reason this could not be implemented in earlier versions)
-- Laravel-Notification-Rate-Limit package (v3.0.0+)
+- Laravel 12 (but this will work with 10.x-12.x)
+- Laravel-Notification-Rate-Limit package (v3.2.0+)
 
 ## How It Works
 
